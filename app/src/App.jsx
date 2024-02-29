@@ -6,7 +6,7 @@ import UserData from "./components/userData";
 import "./App.css"
 
 function App() {
-  const dispatch = useDispatch();
+  const dispatch =useDispatch();
   const [isDataFetched, setIsDataFetched] = useState(false);
 
   let [state1,setState]=useState(false)
